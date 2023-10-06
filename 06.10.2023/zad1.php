@@ -1,7 +1,7 @@
 <?php
-    $number = 5;
-    if ($number / 2 == 0)
-        echo("liczba jest parzysta");
+    $number = 7;
+    if ($number % 2 == 0)
+        echo("liczba jest parzysta<br>");
     else
         echo($number." = liczba jest nie parzysta <br>");
 
