@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>rejestracja</title>
+        <style>
+            body{
+                background-color: aqua;
+                font-size: 25px;
+                text-align: center;
+            }
+
+            .rejestr{
+                font-size: 40px;
+                font-weight: bolder;
+            }
+
+            .rad {
+                font-size: 18px;
+            }
+        </style>
+	</head>
+	<body>
+		<form action="http://localhost/19.01.2024/ucz.php" method="post">
+            <p class="rejestr">Rejestracja</p>
+            Imię<br>
+            <input type="text" name="imię" value=""><br>
+            Nazwisko<br>
+            <input type="text" name="nazwisko" value=""><br>
+            Data urodzenia<br>
+            <input type="date" name="data" value=""><br>
+            miejsce urodzenia<br>
+            <input type="text" name="miejsce" value=""><br>
+            Płeć<br>
+        <div class="rad">
+            <input type="radio" name="płeć" value="mężczyzna" >mężczyzna<br>
+            <input type="radio" name="płeć" value="kobieta" >kobieta<br>
+            <input type="radio" name="płeć" value="inne" >inne<br>
+        </div>
+
+        Klasa<br>
+        <select name="Klasa">
+            <option value="klasa1">klasa1</option>
+            <option value="klasa2">klasa2</option>
+            <option value="klasa3">klasa3</option>
+            <option value="klasa4">klasa4</option>
+            <option value="klasa5">klasa5</option>
+        </select>
+        <br>
+        Nie miałem pomysłu <br>   
+        <select name="idk[]" multiple>
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+            <option value="d">d</option>
+            <option value="e">e</option>
+        </select>
+        <br>
+        <input type="submit" name="wyslij" value="wyslij">
+        </form>
+	</body>
+</html>
