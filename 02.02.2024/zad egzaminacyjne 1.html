@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>rejestracja</title>
+        <style>
+            body{
+                background-color: aqua;
+                font-size: 25px;
+                text-align: center;
+            }
+        </style>
+	</head>
+	<body>
+		<form action="http://localhost/02.02.2024/zad2.php" method="POST">
+            Data urodzenia<br>
+            <input type="date" name="data" value=""><br>
+            miejsce urodzenia<br>
+            <input type="text" name="miejsce" value=""><br>
+            Płeć<br>
+        <div class="rad">
+            <input type="radio" name="płeć" value="mężczyzna" >mężczyzna<br>
+            <input type="radio" name="płeć" value="kobieta" >kobieta<br>
+            <input type="radio" name="płeć" value="inne" >inne<br>
+        </div>
+        uwagi do storny
+        <input type="text" name="uwagi" value="" maxlength="100"><br>
+        Wyrażasz zgodę na przetwarzanie danych?<br>
+        Tak
+        <input type="checkbox" name="zgoda" value="tak">
+        Nie
+        <input type="checkbox" name="zgoda" value="nie">
+
+        <input type="submit" name="wyslij" value="wyslij">
+        </form>
+    </body>
+</html>
+
+        

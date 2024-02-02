@@ -1,0 +1,3 @@
+adres: https://reporter.pl/php-jak-stworzyc-prosta-ksiege-gosci-31
+metoda: Post
+Rozszerzenie pliku przechowującego: php

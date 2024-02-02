@@ -1,0 +1,7 @@
+zad 2. 
+http://localhost/02.02.2024/zad2.php?imi%C4%99=NIe&nazwisko=Tak&wyslij=wyslij
+
+zad3.
+http://localhost/02.02.2024/zad3.php
+
+Przy metodzie post w adresie widzimy pobrane dane przez co łatwo mozna nimi manipulowac.
