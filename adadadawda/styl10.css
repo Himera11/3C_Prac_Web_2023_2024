@@ -1,0 +1,63 @@
+body{
+    font-family: Helvetica;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+.baner, footer{
+    clear: both;
+    background-color: rgb(100, 61, 49);
+    color: white;
+    text-align: center;
+    height: 80px;
+    padding: 5px;
+}
+
+.upleft{
+    background-color: rgb(146, 184, 112);
+    text-align: center;
+    width: 50%;
+    height: 170px;
+    float: left;
+}
+.upright{
+    background-color: rgb(146, 184, 112);
+    text-align: center;
+    width: 50%;
+    height: 170px;
+    float: right;
+}
+
+.mainleft{
+    background-color: rgb(146, 184, 112);
+    width: 50%;
+    height: 450px;
+}
+
+.mainright{
+    background-color: rgb(146, 184, 112);
+    width: 50%;
+    height: 450px;
+}
+table, td{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: green;
+    padding: 20px;
+    margin: 30px;
+}
+h1{
+    letter-spacing: 20px;
+    font-size: 250%;
+}
+
+.zamowienie{
+    background-image: url(cukierki1.jpg);
+    padding-right: 30px;
+    padding-bottom: 120px;
+    font-size: 150%;
+    text-decoration: none;
+}
+
