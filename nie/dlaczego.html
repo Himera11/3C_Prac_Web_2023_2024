@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>
+            życie nie zyciuje 
+        </title>
+    </head>
+    <body>
+        <div>
+            <input id="tak" type="number">
+            <input type="button" value="jest zle" onclick="moze()">
+            <input type="button" value="zielone" onclick="zielone()">
+            <input type="button" value="czerwwone" onclick="czerwwone()">
+            <input type="color" id="color">
+            <input type="button" value="kolor" onclick="bgcolor()" >
+            <input type="date" id="inputDate ">
+            <a id="czm"></a>
+            <a id="czm2">dadwadadasdwasdwdasdwda</a>
+            <a id="czm3"></a>
+            <input type="button" value="data" onclick="data()">
+        </div>
+
+        <img id="no" src="unnamed.jpg" alt="wakacje" onclick="zmiana()">
+        <script>
+            function zmiana()
+            {
+                let change = document.getElementById("no").alt
+                if (change == "wakacje") {
+                    document.getElementById("no").alt = "wiezienie"
+                    document.getElementById("no").src = "alcatraz.jpg"
+                }
+                else{
+                    document.getElementById("no").alt = "wakacje"
+                    document.getElementById("no").src = "unnamed.jpg"
+                }
+            }
+
+            function moze() {
+                let x = document.getElementById("tak").value
+                if (x >= 18) {
+                    document.getElementById("czm").innerText = "mozesz chlac"
+                }
+                else
+                document.getElementById("czm").innerText = "nie mozesz chclac"
+            }
+
+            function zielone() {
+                document.getElementById("czm2").style.color = "green";
+            }
+            function czerwwone() {
+                document.getElementById("czm2").style.color = "red";
+            }
+            function bgcolor(kolor) {
+                let color = document.getElementById("color").value;
+                document.body.style.backgroundColor = color;
+            }
+            function data()
+{
+
+           const inputDate = new Date(document.getElementById('inputDate').value)
+            const month = inputDate.getMonth() + 1; // Miesiące w JavaScript są indeksowane od 0
+            const day = inputDate.getDate()
+
+            if (month === 9 && day === 11) {
+                document.getElementById('czm3').innerText = "9/11 eooo"
+            } else {
+                document.getElementById('czm3').innerText = "...."
+            }
+        }
+        </script>
+    </body>
+</html>
