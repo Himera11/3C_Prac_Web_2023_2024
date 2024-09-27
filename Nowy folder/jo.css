@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+header{
+    text-align: center;
+    color: brown;
+
+        h1{
+        color: blue;
+    }
+}
+
+
+.sectionl{
+    float: left;
+
+    .sectionl__zainteresowania{
+        font-size: 60px;
+        color: blueviolet;
+    }
+    .sectionl__zainteresowania--a{
+        font-size: 30px;
+        color: #C28B0c;
+    }
+    .sectionl__zainteresowania--b{
+        font-size: 30px;
+        color: yellow;
+    }
+    .sectionl__zainteresowania--c{
+        font-size: 30px;
+        color: red;
+    }
+}
+
+.sectionr{
+    float: right;
+
+    .sectionr__umiejetnosci{
+        font-size: 60px;
+        color: blueviolet;
+    }
+    .sectionr__umiejetnosci--a{
+        font-size: 30px;
+        color: #C28B0c;
+        text-align: right;
+    }
+    .sectionr__umiejetnosci--b{
+        font-size: 30px;
+        color: yellow;
+        text-align: right;
+    }
+    .sectionr__umiejetnosci--c{
+        font-size: 30px;
+        color: red;
+        text-align: right;
+    }
+}
+.rekord{
+    border-color: blueviolet;
+    border-radius: 20px;
+    border-style: dashed;
+    border-width: 5px;
+    text-align: center;
+    color: #C28B0c;
+    font-size: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.dane{
+    color: aqua;
+    font-size: 20px;
+}
