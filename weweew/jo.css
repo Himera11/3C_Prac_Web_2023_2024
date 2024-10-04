@@ -1,0 +1,38 @@
+
+fieldset{
+    margin-left: 700px;
+    margin-right: 700px;
+    border-radius: 10px;
+}
+legend{
+    margin: auto;
+}
+#wys{
+    margin-left: 700px;
+}
+label{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+label:hover{
+    margin-left: 25px;
+    color: grey;
+}
+button{
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 497px;
+    margin-left: 700px;
+    letter-spacing: 5px;
+    color: white;
+}
+button:hover{
+    background-color: lightgreen;
+}
+.walutana{
+    margin-top: 5px;
+}
+input{
+    text-align: right;
+}
